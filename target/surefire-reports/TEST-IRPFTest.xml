@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalendarioTest" time="0.042" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="IRPFTest" time="0.008" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="26"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -59,12 +59,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="70.0"/>
   </properties>
-  <testcase name="test07_FormatoInvalido" classname="CalendarioTest" time="0.017"/>
-  <testcase name="test04_MesEAnoValidos" classname="CalendarioTest" time="0.003"/>
-  <testcase name="test03_AnoInvalido" classname="CalendarioTest" time="0.001"/>
-  <testcase name="test06_MaisDeDoisParametros" classname="CalendarioTest" time="0.001"/>
-  <testcase name="test02_AnoValido" classname="CalendarioTest" time="0.001"/>
-  <testcase name="test08_ReformaGregoriana" classname="CalendarioTest" time="0.001"/>
-  <testcase name="test01_NenhumParametro" classname="CalendarioTest" time="0"/>
-  <testcase name="test05_MesInvalidoAnoValido" classname="CalendarioTest" time="0.001"/>
+  <testcase name="testCT04_Faixa3" classname="IRPFTest" time="0.001"/>
+  <testcase name="testCT02_Faixa1" classname="IRPFTest" time="0"/>
+  <testcase name="testCT05_Faixa4" classname="IRPFTest" time="0.001"/>
+  <testcase name="testCT03_Faixa2" classname="IRPFTest" time="0"/>
+  <testcase name="testCT06_RendaNegativa_DeveLancarExcecao" classname="IRPFTest" time="0.001"/>
+  <testcase name="testCT01_Isento" classname="IRPFTest" time="0.001"/>
 </testsuite>
